@@ -24,4 +24,5 @@ dotfiles config --local status.showUntrackedFiles no
 ## Apps installed on my new system
 ```bash
 sudo snap install spotify
+sudo snap code --classic
 ```
