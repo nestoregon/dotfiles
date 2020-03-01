@@ -5,6 +5,12 @@ This repository hosts my dotfiles to ease the configuration of a new device.
 - Additional information for creating [dotfiles information](https://www.freecodecamp.org/news/dive-into-dotfiles-part-2-6321b4a73608/)
 - Example of how a dotfiles should look like [here](https://github.com/timdawborn/dotfiles)
 
+## Pre setup
+```bash
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install git
+```
+
 ## Migrate to device
 Run the following script on a new terminal
 ```bash
