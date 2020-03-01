@@ -21,3 +21,7 @@ git clone --bare https://www.github.com/nestoregon/dotfiles.git $HOME/.dotfiles.
 dotfiles checkout # exit
 dotfiles config --local status.showUntrackedFiles no
 ```
+## Apps installed on my new system
+```bash
+sudo snap install spotify
+```
