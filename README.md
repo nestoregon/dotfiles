@@ -21,8 +21,7 @@ git clone --bare https://www.github.com/nestoregon/dotfiles.git $HOME/.dotfiles.
 dotfiles checkout # exit
 dotfiles config --local status.showUntrackedFiles no
 ```
-## Apps installed on my new system
-```bash
-sudo snap install spotify
-sudo snap code --classic
-```
+## Snaps
+
+Snaps are to be avoided given that they take up more space and are slower than apt-installed apps. The theme integration isn't good either, especially w search engines such as brave-browser.
+On the other hand, snaps are easy to install and remove, perfect to try a new app.
