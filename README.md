@@ -41,6 +41,12 @@ I case you want to copy everything from the github repository run the following 
 dotfiles reset --hard
 ```
 
+After adding whatever you wanted stash the rest of the changes
+
+```bash
+dotfiles stash
+```
+
 ## Commands
 
 ```bash
