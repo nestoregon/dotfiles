@@ -41,7 +41,7 @@ I case you want to copy everything from the github repository run the following 
 dotfiles reset --hard
 ```
 
-After adding whatever you wanted stash the rest of the changes
+After adding whatever you wanted stash the rest of the changes. This is important cuz nothing else will be tracked.
 
 ```bash
 dotfiles stash
@@ -58,6 +58,7 @@ dotfiles pull origin master # pull from master node
 dotfiles reset # reset specific files from master node
 dotfiles checkout #
 dotfiles fetch #
+dotfiles stash # to discard everything on status. When we want no link
 ```
 
 ## Snaps
