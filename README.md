@@ -17,7 +17,7 @@ Run the following script on a new terminal
 echo 'alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"' >> $HOME/.zshrc
 source ~/.zshrc
 echo ".dotfiles.git" >> .gitignore
-git clone --bare git@github.com:nestoregon/dotfiles.git
+git clone --bare git@github.com:nestoregon/dotfiles.git $HOME/.dotfiles.git
 dotfiles checkout # exit
 dotfiles config --local status.showUntrackedFiles no
 ```
