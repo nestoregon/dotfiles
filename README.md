@@ -6,6 +6,14 @@ This repository hosts my dotfiles to ease the configuration of a new device.
 - Additional information for creating [dotfiles information](https://www.freecodecamp.org/news/dive-into-dotfiles-part-2-6321b4a73608/)
 - Example of how a dotfiles should look like [here](https://github.com/timdawborn/dotfiles)
 
+# Things to do when you set your machine
+
+- Install Brave browser
+- Install pip
+
+
+
+
 ## Pre setup / requisites
 
 ```bash
