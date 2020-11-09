@@ -8,18 +8,21 @@ This repository hosts my dotfiles to ease the configuration of a new device.
 
 # Things to do when you set your machine
 
-- Install Brave browser. As of 2020 you can follow the steps in the following [link](https://brave.com/linux/)
-- Install pip
-
-## Pre setup / requisites
-
+- First things first
 ```bash
-sudo apt-get update && sudo apt-get upgrade
-sudo apt-get install git
+sudo apt-get update && sudo apt-get upgrade # update the machine
+sudo apt-get install python3-pip # install pip3
+sudo apt-get install git # install git support
+sudo apt-get install zsh # install zsh shell
+```
+- Install Brave browser. As of 2020 you can follow the steps in the following [link](https://brave.com/linux/)
+- Installing oh-my-zsh
+Page for information on how to install [here](https://github.com/ohmyzsh/ohmyzsh). Installation:
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 ## Migrate to device
-
 Run the following script on a new terminal
 
 ```bash
