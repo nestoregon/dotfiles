@@ -15,7 +15,8 @@ sudo apt-get install python3-pip
 sudo apt-get install git 
 sudo apt-get install zsh 
 chsh -s $(which zsh) 
-```
+```  
+For some changes to take place you may need to restart your device (such as zsh as the default shell).  
 - Install Brave browser. As of 2020 you can follow the steps in the following [link](https://brave.com/linux/). As far as configuration, join the chain from "sync" in the settings of brave. This is easy to do, you need to create a chain ("Branch") that provides you with 24 unique words that need to be typed in our laptop. Also change the theme to dark because brave does not have that.
 - Installing oh-my-zsh  
 Page for information on how to install [here](https://github.com/ohmyzsh/ohmyzsh). Installation:
