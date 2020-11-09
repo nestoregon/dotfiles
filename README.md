@@ -35,6 +35,15 @@ Page for information on how to install [here](https://github.com/ohmyzsh/ohmyzsh
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+- Autosuggestions
+```bash
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+
+```
+- Syntax highlight
+```bash
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+```
 
 ## Migrate to device
 Run the following script on a new terminal
