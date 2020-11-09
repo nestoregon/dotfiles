@@ -10,11 +10,11 @@ This repository hosts my dotfiles to ease the configuration of a new device.
 
 - First things first
 ```bash
-sudo apt-get update && sudo apt-get upgrade # update the machine
-sudo apt-get install python3-pip # install pip3
-sudo apt-get install git # install git support
-sudo apt-get install zsh # install zsh shell
-chsh -s $(which zsh) # makes zsh your default shell
+sudo apt-get update && sudo apt-get upgrade 
+sudo apt-get install python3-pip
+sudo apt-get install git 
+sudo apt-get install zsh 
+chsh -s $(which zsh) 
 ```
 - Install Brave browser. As of 2020 you can follow the steps in the following [link](https://brave.com/linux/)
 - Installing oh-my-zsh
