@@ -8,12 +8,24 @@ This repository hosts my dotfiles to ease the configuration of a new device.
 
 # Things to do when you set your machine
 
-- First things first
+- Update your device
 ```bash
 sudo apt-get update && sudo apt-get upgrade 
+```
+- Install pip3
+```bash
 sudo apt-get install python3-pip
+```
+- Install git
+```bash
 sudo apt-get install git 
+```
+- Install zsh
+```bash
 sudo apt-get install zsh 
+```
+- Set zsh as default
+```bash
 chsh -s $(which zsh) 
 ```  
 For some changes to take place you may need to restart your device (such as zsh as the default shell).  
