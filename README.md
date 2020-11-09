@@ -8,13 +8,8 @@ This repository hosts my dotfiles to ease the configuration of a new device.
 
 # Things to do when you set your machine
 
-- Install Brave browser
+- Install Brave browser. As of 2020 you can follow the steps in the following [link](https://brave.com/linux/)
 - Install pip
-
-
-## Install Brave Browser
-
-As of 2020 you can follow the steps in the following [link](https://brave.com/linux/)
 
 ## Pre setup / requisites
 
