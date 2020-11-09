@@ -2,6 +2,8 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
+# This may need to change according to the user. Remember to name the user "nestoregon" and you 
+# won't have any problems
 export ZSH="/home/nestoregon/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
