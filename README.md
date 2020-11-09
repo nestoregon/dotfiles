@@ -16,6 +16,10 @@ sudo apt-get update && sudo apt-get upgrade
 ```bash
 sudo apt-get install python3-pip
 ```
+- Install vim
+```bash
+sudo apt-get install vim
+```
 - Install git
 ```bash
 sudo apt-get install git 
