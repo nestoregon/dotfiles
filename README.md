@@ -12,7 +12,9 @@ This repository hosts my dotfiles to ease the configuration of a new device.
 - Install pip
 
 
+## Install Brave Browser
 
+As of 2020 you can follow the steps in the following [link](https://brave.com/linux/)
 
 ## Pre setup / requisites
 
