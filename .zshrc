@@ -2,8 +2,6 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-# This may need to change according to the user. Remember to name the user "nestoregon" and you 
-# won't have any problems
 export ZSH="/home/nestoregon/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
@@ -102,11 +100,13 @@ alias ohmyzsh="vim ~/.oh-my-zsh"
 alias upd="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y"
 alias stu="/home/nestoregon/projects/tutoring_report_autopy; workon autopy"
 alias desk="mv ~/Desktop/* ."
+alias down="mv ~/Downloads/* ."
 alias nau="nautilus .&"
 alias gall="git add .;git commit -m 'commit'; git push"
 alias vimconfig="vim ~/.vimrc"
-alias shu="shutdown now"
-
+alias shhh="shutdown now -"
+alias cur="cd ~/projects/learn/advent_code/2020" # to switch to current directory
+export PATH="$PATH:/usr/share/code/bin"
 # setting of Python Virtual environment
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export WORKON_HOME=~/.virtualenvs
@@ -121,3 +121,16 @@ export WORKON_HOME=~/.virtualenvs
 
 # for ROS
 source /opt/ros/noetic/setup.zsh
+source ~/ros_packages/catkin_ws/devel/setup.zsh # to include turtlebot
+export TURTLEBOT3_MODEL=burger # to include turtlebot burger
+
+# for NAO
+#export PYTHONPATH=${PYTHONPATH}:/home/nestoregon/.nao/python_sdk/lib/python2.7/site-packages
+#export QI_SDK_PREFIX=/home/nestoregon/.nao/python_sdk
+
+# for CAPS
+setxkbmap -option "lv3:caps_switch"
+
+# for using Ctrl+s in vim
+#bind -r '\C-s'
+#stty -ixon
