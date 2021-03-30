@@ -49,6 +49,20 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugi
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 ```
 
+- Update ZSHRC y VIMRC
+
+- Install Vim Plug
+```bash
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+- Install Plugs
+Once you're in Vim:
+```vim
+:PlugInstall
+```
+
 ## Migrate to device
 Run the following script on a new terminal
 
